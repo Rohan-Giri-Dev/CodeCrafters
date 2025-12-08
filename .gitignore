@@ -1,0 +1,33 @@
+# --- Node / JS things ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Build outputs (if you add them later) ---
+dist/
+build/
+.cache/
+.vite/
+.next/
+out/
+
+# --- Env / secrets (if you ever add them) ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Vercel local config (if you ever use vercel CLI)
+.vercel/
+
+# generic logs
+*.log
